@@ -1,5 +1,5 @@
 {% set name = "dagster_graphql" %}
-{% set version = "0.6.4" %}
+{% set version = "0.6.5" %}
 
 package:
   name: "{{ name|lower }}"
@@ -7,7 +7,7 @@ package:
 
 source:
   url: "https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz"
-  sha256: 6be08e5bb411288a2bf60ac5a4a5ef3ced189ef95d3991395100a6449d016da8
+  sha256: 420380da37e7acadf6f91177079812e04f76020e5c4dd1544966e84d8a08dba5
 
 build:
   number: 0
